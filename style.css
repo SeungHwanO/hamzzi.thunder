@@ -6,8 +6,8 @@
 body {
     font-family: Arial, sans-serif;
     color: rgba(75, 63, 53, 0.85);
-    background-color: #f5e8c7;
-    background-image: url("img/backImg.png");
+    background-color: #feccbe;
+    background-image: url("img/HbackImg.png");
     background-position: top center;
     background-size: 100% auto;
     background-attachment: scroll;
@@ -40,20 +40,23 @@ h1 {
 
 h4 {
     font-family: 'Do Hyeon', sans-serif;
+    margin-top: 15px;
     margin-bottom: 0;
 }
 
 .subTitle {
     font-family: 'Gamja Flower';
-    font-size: 15px;
-    margin-top: 2px;
+    font-size: 14px;
+    margin-top: 4px;
 }
 
 /* ==============================
    🔹 컨테이너 영역
 ============================== */
 .container {
-    background-color: #fffcf3;
+    background-color: #fff8f9;
+    /*background-color: #ffffff; 흰색*/
+    /*background-color: #f9fcea; 연두*/
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -77,8 +80,8 @@ h4 {
 }
 
 .profile-img img {
-    width: 100%;
-    height: 100%;
+    width: 130%;
+    height: 130%;
     object-fit: contain;
     display: block;
 }
@@ -86,6 +89,7 @@ h4 {
 /* ==============================
    🔹 링크 버튼 영역
 ============================== */
+
 .link-button {
     display: flex;
     align-items: center;
@@ -104,7 +108,7 @@ h4 {
 }
 
 .link-button:hover {
-    background-color: #e0d4c0;
+    background-color: #ffe4e4;
 }
 
 .link-button img.social-icons {
@@ -114,12 +118,23 @@ h4 {
     margin: 0;
 }
 
+#blogLogo {
+    width: 25px;
+    height: 25px;
+}
+
+#youtubeLogo {
+    width: 30px;
+    height: 30px;
+}
+
+
 /* ==============================
    🔹 소셜 아이콘
 ============================== */
 .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 15px;
     margin-bottom: 20px;
 }
